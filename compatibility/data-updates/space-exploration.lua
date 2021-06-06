@@ -1,3 +1,5 @@
+local data = _G.data
+local mods = _G.mods
 local data_util = require("data_util")
 --Recipe Changes
 if mods["space-exploration"] then

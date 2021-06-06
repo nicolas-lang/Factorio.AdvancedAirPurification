@@ -1,5 +1,4 @@
-﻿local data = _G.data
-require("prototypes.entity")
+﻿require("prototypes.entity")
 require("prototypes.items")
 require("prototypes.recipe-category")
 require("prototypes.recipe")

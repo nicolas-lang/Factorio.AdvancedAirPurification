@@ -1,3 +1,5 @@
+local data = _G.data
+local mods = _G.mods
 local data_util = require("data_util")
 if mods["Krastorio2"] then
 	local recipe

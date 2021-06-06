@@ -6,7 +6,7 @@ if mods["space-exploration"] then
 	local recipe
 	-- Add Vitamelange to filter craft
 	recipe = data.raw["recipe"]["advanced-pollution-filter"]
-	table.insert(recipe.ingredients, {"se-vitamelange", 10})
+	table.insert(recipe.ingredients, {"se-bioscrubber", 2})
 	data.raw["recipe"]["advanced-pollution-filter"] = recipe
 	-- Add scrap to filter recycling
 	recipe = data.raw["recipe"]["restore-used-advanced-pollution-filter"]

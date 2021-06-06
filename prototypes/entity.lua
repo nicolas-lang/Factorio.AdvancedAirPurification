@@ -4,7 +4,7 @@ data:extend({
 	{
 		type = "furnace",
 		name = "advanced-air-purifier",
-		icon = "__Advanced-Air-Purification__/images/" .. "advanced-air-purifier.png",
+		icon = "__nco-AdvancedAirPurification__/images/" .. "advanced-air-purifier.png",
 		icon_size = 64,
 		flags = {"placeable-neutral","placeable-player", "player-creation"},
 		minable = {mining_time = 0.5, result = "advanced-air-purifier"},
@@ -21,7 +21,7 @@ data:extend({
 			layers =
 			{
 				{
-					filename = "__Advanced-Air-Purification__/images/" .. "advanced-air-purifier.png",
+					filename = "__nco-AdvancedAirPurification__/images/" .. "advanced-air-purifier.png",
 					priority = "high",
 					width = 75,
 					height = 75,
@@ -31,7 +31,7 @@ data:extend({
 					animation_speed=0.5,
 					hr_version =
 					{
-						filename = "__Advanced-Air-Purification__/images/" .. "hr-advanced-air-purifier.png",
+						filename = "__nco-AdvancedAirPurification__/images/" .. "hr-advanced-air-purifier.png",
 						priority = "high",
 						width = 150,
 						height = 150,
@@ -43,7 +43,7 @@ data:extend({
 					}
 				},
 				{
-					filename = "__Advanced-Air-Purification__/images/" .. "advanced-air-purifier-sh.png",
+					filename = "__nco-AdvancedAirPurification__/images/" .. "advanced-air-purifier-sh.png",
 					priority = "high",
 					width = 82,
 					height = 51,
@@ -53,7 +53,7 @@ data:extend({
 					animation_speed=0.5,
 					hr_version =
 					{
-						filename = "__Advanced-Air-Purification__/images/" .. "hr-advanced-air-purifier-sh.png",
+						filename = "__nco-AdvancedAirPurification__/images/" .. "hr-advanced-air-purifier-sh.png",
 						priority = "high",
 						width = 164,
 						height = 102,
@@ -70,7 +70,7 @@ data:extend({
 		vehicle_impact_sound = sounds.generic_impact,
 		working_sound =
 		{
-			sound = { filename = "__Advanced-Air-Purification__/sounds/" .. "advanced-air-purifier.ogg" },
+			sound = { filename = "__nco-AdvancedAirPurification__/sounds/" .. "advanced-air-purifier.ogg" },
 			idle_sound = { filename = "__base__/sound/idle1.ogg" },
 			apparent_volume = 1.5
 		},
@@ -85,7 +85,7 @@ data:extend({
 		{
 			pictures =
 			{
-				filename = "__Advanced-Air-Purification__/images/" .. "advanced-air-purifier-reflection.png",
+				filename = "__nco-AdvancedAirPurification__/images/" .. "advanced-air-purifier-reflection.png",
 				priority = "extra-high",
 				width = 20,
 				height = 25,

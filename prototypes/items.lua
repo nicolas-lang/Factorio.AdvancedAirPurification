@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "item",
 		name = "advanced-pollution-filter",
-		icon = "__Advanced-Air-Purification__/images/" .. "advanced-pollution-filter.png",
+		icon = "__nco-AdvancedAirPurification__/images/" .. "advanced-pollution-filter.png",
 		icon_size = 64,
 		icon_mipmaps = 4,
 		subgroup = "intermediate-product",
@@ -12,7 +12,7 @@ data:extend({
 	{
 		type = "item",
 		name = "used-advanced-pollution-filter",
-		icon = "__Advanced-Air-Purification__/images/" .. "used-advanced-pollution-filter.png",
+		icon = "__nco-AdvancedAirPurification__/images/" .. "used-advanced-pollution-filter.png",
 		icon_size = 64,
 		icon_mipmaps = 4,
 		subgroup = "intermediate-product",
@@ -22,7 +22,7 @@ data:extend({
 	{
 		type = "item",
 		name = "advanced-air-purifier",
-		icon = "__Advanced-Air-Purification__/images/" .. "advanced-air-purifier.png",
+		icon = "__nco-AdvancedAirPurification__/images/" .. "advanced-air-purifier.png",
 		icon_size = 64,
 		subgroup = "production-machine",
 		order = "z[air-purifier-2]",

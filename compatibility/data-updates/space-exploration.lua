@@ -1,12 +1,11 @@
 local data_util = require("data_util")
 --Recipe Changes
 if mods["space-exploration"] then
-	local recipe = nil
+	local recipe
 	-- Add Vitamelange to filter craft
 	recipe = data.raw["recipe"]["advanced-pollution-filter"]
 	table.insert(recipe.ingredients, {"se-vitamelange", 10})
 	data.raw["recipe"]["advanced-pollution-filter"] = recipe
-	
 	-- Add scrap to filter recycling
 	recipe = data.raw["recipe"]["restore-used-advanced-pollution-filter"]
 	table.insert(recipe.results,{ type = "item",  name = "se-scrap", amount_min = 1, amount_max = 10, probability = 0.2})
@@ -15,6 +14,7 @@ if mods["space-exploration"] then
 end
 -- Tech Changes
 if mods["space-exploration"] then
+	local tech
 	-- Integrate tech with SE tech tree
 	tech = data.raw["technology"]["advanced-air-purification"]
 	-- change module tech req's
@@ -34,8 +34,7 @@ if mods["space-exploration"] then
 		{ "se-material-science-pack-2", 1 },
 	}
 	data.raw["technology"]["advanced-air-purification"] = tech
-	
-	-- Re-Integrate Krastorio2 Tech for Air Filtering at a more meaningfull place in the tech tree	
+	-- Re-Integrate Krastorio2 Tech for Air Filtering at a more meaningfull place in the tech tree
 	if mods["Krastorio2"] then
 		tech = data.raw["technology"]["kr-improved-pollution-filter"]
 		data_util.tech_remove_prerequisite(tech, "kr-matter-tech-card")

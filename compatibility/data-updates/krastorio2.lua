@@ -1,6 +1,6 @@
 local data_util = require("data_util")
 if mods["Krastorio2"] then
-	local recipe = nil
+	local recipe
 	-- Add K2 ingredients to filter
 	recipe = data.raw["recipe"]["advanced-pollution-filter"]
 	table.insert(recipe.ingredients, {"imersium-plate", 10})

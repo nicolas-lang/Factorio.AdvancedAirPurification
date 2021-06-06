@@ -1,6 +1,6 @@
 local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds      = require("__base__/prototypes/entity/sounds")
-data:extend({  
+data:extend({
 	{
 		type = "furnace",
 		name = "advanced-air-purifier",
@@ -23,7 +23,6 @@ data:extend({
 				{
 					filename = "__Advanced-Air-Purification__/images/" .. "advanced-air-purifier.png",
 					priority = "high",
-					scale = scale,
 					width = 75,
 					height = 75,
 					shift = {0, -0.1},
@@ -34,7 +33,6 @@ data:extend({
 					{
 						filename = "__Advanced-Air-Purification__/images/" .. "hr-advanced-air-purifier.png",
 						priority = "high",
-						scale = scale,
 						width = 150,
 						height = 150,
 						shift = {0, -0.1},
@@ -47,7 +45,6 @@ data:extend({
 				{
 					filename = "__Advanced-Air-Purification__/images/" .. "advanced-air-purifier-sh.png",
 					priority = "high",
-					scale = scale,
 					width = 82,
 					height = 51,
 					shift = {0.22, 0.25},
@@ -58,7 +55,6 @@ data:extend({
 					{
 						filename = "__Advanced-Air-Purification__/images/" .. "hr-advanced-air-purifier-sh.png",
 						priority = "high",
-						scale = scale,
 						width = 164,
 						height = 102,
 						shift = {0.22, 0.25},

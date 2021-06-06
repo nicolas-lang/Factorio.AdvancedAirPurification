@@ -1,0 +1,13 @@
+{
+	"name": "nco-ModTemplate",
+	"version": "0.0.1",
+	"title": "Mod Template",
+	"author": "Karoschl",
+	"contact": "",
+	"homepage": "",
+	"description": "Basic Mod Template, check github for details",
+	"factorio_version": "1.1",
+	"dependencies": [
+		"base >= 1.0"
+	]
+}

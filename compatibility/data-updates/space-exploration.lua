@@ -10,7 +10,6 @@ if mods["space-exploration"] then
 	recipe = data.raw["recipe"]["restore-used-advanced-pollution-filter"]
 	table.insert(recipe.results,{ type = "item",  name = "se-scrap", amount_min = 1, amount_max = 10, probability = 0.2})
 	data_util.remove_result(recipe,"stone")
-	data.raw["recipe"]["restore-used-advanced-pollution-filter"] = recipe
 end
 -- Tech Changes
 if mods["space-exploration"] then
@@ -33,7 +32,6 @@ if mods["space-exploration"] then
 		{ "se-biological-science-pack-3", 1 },
 		{ "se-material-science-pack-2", 1 },
 	}
-	data.raw["technology"]["advanced-air-purification"] = tech
 	-- Re-Integrate Krastorio2 Tech for Air Filtering at a more meaningfull place in the tech tree
 	if mods["Krastorio2"] then
 		tech = data.raw["technology"]["kr-improved-pollution-filter"]
@@ -43,6 +41,5 @@ if mods["space-exploration"] then
 			{ "se-biological-science-pack-1", 1}
 		}
 		log(serpent.block(tech))
-		data.raw["technology"]["kr-improved-pollution-filter"] = tech
 	end
 end

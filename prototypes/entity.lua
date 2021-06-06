@@ -70,7 +70,7 @@ data:extend({
 		vehicle_impact_sound = sounds.generic_impact,
 		working_sound =
 		{
-			sound = { filename = "__Advanced-Air-Purification__/sounds/" .. "advanced-air-purifier.ogg" },		
+			sound = { filename = "__Advanced-Air-Purification__/sounds/" .. "advanced-air-purifier.ogg" },
 			idle_sound = { filename = "__base__/sound/idle1.ogg" },
 			apparent_volume = 1.5
 		},
@@ -81,7 +81,6 @@ data:extend({
 			usage_priority = "secondary-input",
 			emissions_per_minute = -1500
 		},
-		
 		water_reflection =
 		{
 			pictures =
@@ -97,7 +96,6 @@ data:extend({
 			rotate = false,
 			orientation_to_variation = false
 		},
-		
 		energy_usage = "75kW",
 		open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.75 },
 		close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 }

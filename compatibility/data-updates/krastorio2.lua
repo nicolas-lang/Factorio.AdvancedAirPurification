@@ -25,7 +25,10 @@ if mods["Krastorio2"] then
 	data_util.remove_ingredient(recipe,"low-density-structure")
 	data_util.remove_ingredient(recipe,"assembling-machine-3")
 	data.raw["recipe"]["advanced-air-purifier"] = recipe
-	-- Integrate into tech tree
+end
+-- Integrate into K2 tech
+if mods["Krastorio2"] then
+	local tech
 	tech = data.raw["technology"]["advanced-air-purification"]
 	table.insert(tech.prerequisites,"kr-improved-pollution-filter")
 	data.raw["technology"]["advanced-air-purification"] = tech

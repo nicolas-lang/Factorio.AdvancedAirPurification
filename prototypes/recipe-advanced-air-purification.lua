@@ -4,7 +4,7 @@ data:extend({
 		type = "recipe",
 		name = "advanced-air-cleaning",
 		category = "advanced-air-purification",
-		icon = "__nco-AdvancedAirPurification__/images/" .. "icon-filtering.png",
+		icon = "__nco-AdvancedAirPurification__/graphics/" .. "icon-filtering.png",
 		icon_size = 64,
 		energy_required = 600,
 		enabled = false,

@@ -3,7 +3,7 @@ data:extend({
 		type = "technology",
 		name = "advanced-air-purification",
 		mod = "Advanced-Air-Purification",
-		icon = "__nco-AdvancedAirPurification__/images/" .. "tech-advanced-air-purifier.png",
+		icon = "__nco-AdvancedAirPurification__/graphics/" .. "tech-advanced-air-purifier.png",
 		icon_size = 128,
 		effects =
 		{

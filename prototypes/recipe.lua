@@ -17,7 +17,7 @@ data:extend({
 		type = "recipe",
 		name = "restore-used-advanced-pollution-filter",
 		category = "chemistry",
-		icon = "__nco-AdvancedAirPurification__/images/" .. "restore-used-advanced-pollution-filter.png",
+		icon = "__nco-AdvancedAirPurification__/graphics/" .. "restore-used-advanced-pollution-filter.png",
 		icon_size = 128,
 		energy_required = 60,
 		enabled = false,

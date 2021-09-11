@@ -42,6 +42,6 @@ if mods["space-exploration"] then
 		tech.unit.ingredients  = {
 			{ "se-biological-science-pack-1", 1}
 		}
-		log(serpent.block(tech))
+		--log(serpent.block(tech))
 	end
 end

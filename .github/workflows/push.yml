@@ -33,6 +33,4 @@ jobs:
       - name: Factorio release
         uses: nicolas-lang/factorio-create-release-action@master
         with:
-          factorio_password: ${{ secrets.FACTORIO_PASSWORD }}
-          factorio_user: ${{ secrets.FACTORIO_USER }}
-
+          MOD_UPLOAD_API_KEY: ${{ secrets.MOD_UPLOAD_API_KEY }}

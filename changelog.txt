@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 20. 08. 2024
+  Features:
+    - Update translations from Crowdin
+    - added locale (de)
+    - added locale (ru)
+    - added locale (uk)
+---------------------------------------------------------------------------------------------------
 Version: 0.0.2
   Changes:
     - removed superfluous log outputs
